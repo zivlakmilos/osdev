@@ -1,5 +1,5 @@
 #ifndef _STDLIB_H
-#define _STDLIB_H
+#define _STDLIB_H 1
 
 #include <sys/cdefs.h>
 
@@ -7,11 +7,11 @@
 extern "C" {
 #endif
 
-__atribute__((__nonreturn__)__
+__attribute__((__noreturn__))
 void abort(void);
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif // _STDLIB_H
+#endif
