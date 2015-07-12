@@ -2,14 +2,25 @@
 #include <stdint.h>
 #include <string.h>
 #include <stdio.h>
+#include <sys/io.h>
 
 #include <kernel/tty.h>
 
+/**
+ *
+ * Initialize kernel
+ *
+ */
 void kernel_init(void)
 {
 	terminal_initialize();
 }
 
+/**
+ *
+ * Main function of kernel
+ *
+ */
 void kernel_main(void)
 {
 	printf("Hello, kernel World!\n");

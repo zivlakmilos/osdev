@@ -7,8 +7,27 @@
 extern "C" {
 #endif
 
+/**
+ *
+ * Standard printf function in C
+ *
+ */
+
 int printf(const char* __restrict, ...);
+
+/**
+ *
+ * Put one character to display
+ *
+ */
+
 int putchar(int);
+/**
+ *
+ * Put string to display
+ *
+ */
+
 int puts(const char*);
 
 #ifdef __cplusplus
