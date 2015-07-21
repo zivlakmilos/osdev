@@ -23,5 +23,6 @@ void kernel_init(void)
  */
 void kernel_main(void)
 {
+    char c;
 	printf("Hello, kernel World!\n");
 }
